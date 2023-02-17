@@ -1,0 +1,32 @@
+{
+  "name": "organize_my_inventory",
+  "version": "1.0.0",
+  "description": "Use MySQL2, Sequelize and Express.js to GET, POST, UPDATE and DELETE online inventory.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chiweenie6/Organize_My_Inventory.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "bugs": {
+    "url": "https://github.com/Chiweenie6/Organize_My_Inventory/issues"
+  },
+  "homepage": "https://github.com/Chiweenie6/Organize_My_Inventory#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.1.2",
+    "sequelize": "^6.28.0"
+  }
+}
