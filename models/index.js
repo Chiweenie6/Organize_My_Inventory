@@ -16,6 +16,7 @@ Category.hasMany(Product, {
 
 // Products belongToMany Tags (through ProductTag)
 Product.belongsToMany(Tag, {
+  onDelete: "CASCADE",
   through: {
     model: ProductTag,
     unique: false

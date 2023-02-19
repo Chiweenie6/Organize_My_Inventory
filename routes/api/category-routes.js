@@ -73,7 +73,7 @@ router.delete('/:id', async (req, res) => {
   });
 
   if (!categoryID) {
-    res.status(404).json({message: "Category ID not Found 🚫"});
+    res.status(404).json({message: "Category ID Not Found 🚫"});
     return;
   }
   res.status(202).json(categoryID);
