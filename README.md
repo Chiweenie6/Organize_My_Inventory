@@ -23,13 +23,18 @@ Use MySQL2, Sequelize and Express.js to GET, POST, UPDATE and DELETE online inve
   The user can manage their online inventory by placing it into a database. Once in the database the inventory can be read, products can be updated, new items created, and old items removed.
   
   Images:  
+  ![image](https://user-images.githubusercontent.com/113393706/220421738-f24c9771-0db2-4cb4-a6b3-c19b4b0a8b08.png)
+  ![image](https://user-images.githubusercontent.com/113393706/220421850-ecdae470-bda2-458a-ac42-33dbe8932343.png)
+  ![image](https://user-images.githubusercontent.com/113393706/220421966-af53d119-7cd3-4b54-8e3e-6cf31e180537.png)
+  ![image](https://user-images.githubusercontent.com/113393706/220422234-dd7d4fbc-ac4a-42b1-9641-5f6dd65b30b9.png)
+
    
  
 
 
 
 ## Installation
-  Copy application files into code.vs and then input "npm install" into the command-line. Then open mysql by typing "mysql -u yourDB_USERname -p" into the command-line and type in your password. Once logged in to mysql you need to source the sql files by typing "source DB/schema.sql;" and "source DB/seeds.sql;" into the mysql command-line. Once sourced, exit mysql by typing "exit". When back in the normal command-line, type "npm start" into the command-line and use the bowser to go to http://localhost:3001/.
+  Copy application files into code.vs and then input "npm install" into the command-line. Then open mysql by typing "mysql -u yourDB_USERname -p" into the command-line and type in your password. Once logged in to mysql you need to source the sql files by typing "source DB/schema.sql;" into the mysql command-line. Once sourced, exit mysql by typing "exit". When back in the normal command-line, type "npm run seed" to seed the inventory data. Finally, type "npm start" into the command-line and use the bowser to go to http://localhost:3001/.
 
 ## Contributing
   n/a
