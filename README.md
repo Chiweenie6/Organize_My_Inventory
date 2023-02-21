@@ -35,7 +35,7 @@ Use MySQL2, Sequelize and Express.js to GET, POST, UPDATE and DELETE online inve
 
 
 ## Installation
-  Copy application files into code.vs and then input "npm install" into the command-line. Then open mysql by typing "mysql -u yourDB_USERname -p" into the command-line and type in your password. Once logged in to mysql you need to source the sql files by typing "source DB/schema.sql;" into the mysql command-line. Once sourced, exit mysql by typing "exit". When back in the normal command-line, type "npm run seed" to seed the inventory data. Finally, type "npm start" into the command-line and use the bowser to go to http://localhost:3001/.
+  Copy application files into code.vs and then input "npm install" into the command-line. Then open mysql by typing "mysql -u yourDB_USERname -p" into the command-line and type in your password. Once logged in to mysql you need to source the sql files by typing "source DB/schema.sql;" into the mysql command-line. Once sourced, exit mysql by typing "exit". When back in the normal command-line, type "npm run seed" to seed the inventory data. Finally, type "npm start" into the command-line, open Insomnia and type in localhost:3001/ + your routes to start managing your inventory.
 
 ## Contributing
   n/a
