@@ -26,6 +26,7 @@ Use MySQL2, Sequelize and Express.js to GET, POST, UPDATE and DELETE online inve
   ![image](https://user-images.githubusercontent.com/113393706/220421738-f24c9771-0db2-4cb4-a6b3-c19b4b0a8b08.png)
   ![image](https://user-images.githubusercontent.com/113393706/220421850-ecdae470-bda2-458a-ac42-33dbe8932343.png)
   ![image](https://user-images.githubusercontent.com/113393706/220421966-af53d119-7cd3-4b54-8e3e-6cf31e180537.png)
+  ![image](https://user-images.githubusercontent.com/113393706/220439817-28f812b1-cf87-4655-8d71-e533bbb67135.png)
   ![image](https://user-images.githubusercontent.com/113393706/220422234-dd7d4fbc-ac4a-42b1-9641-5f6dd65b30b9.png)
 
    
