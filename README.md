@@ -15,7 +15,7 @@ Use MySQL2, Sequelize and Express.js to GET, POST, UPDATE and DELETE online inve
 ## Description
   This application uses opbject-relational mapping to connect the Javascript with the information in a database. An express.js API using Sequalize to interact with MySQL database. Using Sequelize the application can read, create, update and delete information in the database. Uses dotenv to store and hide private information such as a password while still being able to be used in the application.
   
-  Video Demo Link:  
+  Video Demo Link:  https://drive.google.com/file/d/1hc_AhoQMjQpLrg7hMEzj9hCRRfCsfW0V/view
   
 
 
